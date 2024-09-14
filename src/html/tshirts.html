@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    {{> (config config.partials.head) }}
+    <title>Men's T-Shirts | {{config.defaultPageTitle}}</title>
+</head>
+
+<body class="{{config.classes.body}}">
+    {{> (config config.partials.navbar) }}
+
+    <!-- Main Section-->
+    <section class="mt-0 {{ config.classes.content }}">
+        <!-- Page Content Goes Here -->
+
+        <!-- Category Top Banner -->
+        <div class="py-10 bg-img-cover bg-overlay-dark position-relative overflow-hidden bg-pos-center-center rounded-0"
+            style="background-image: url({{webRoot}}/assets/images/banners/banner-category-top.jpg);">
+            <div class="container-fluid position-relative z-index-20" data-aos="fade-right" data-aos-delay="300">
+                <h1 class="fw-bold display-6 mb-4 text-white">Men's T-Shirts</h1>
+                <div class="col-12 col-md-6">
+                    <p class="text-white mb-0 fs-5">
+                        Explore our wide range of men's T-Shirts. From classic styles to trendy designs, we have T-Shirts for every occasion and preference.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Category Top Banner -->
+
+        <div class="container-fluid" data-aos="fade-in">
+            <!-- Category Toolbar-->
+            {{> toolbar/toolbar }}
+            <!-- /Category Toolbar-->
+
+            <!-- Products-->
+            <div class="row g-4">
+                {{#each mens-tshirts.category-products.entries}}
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="card h-100 position-relative">
+                        <div class="card-img position-relative">
+                            <picture class="position-relative overflow-hidden d-block bg-light">
+                                <img class="w-100 img-fluid position-relative z-index-10" title="" src="{{img}}" alt="{{title}}">
+                            </picture>
+                            <div class="position-absolute start-0 bottom-0 end-0 z-index-20 p-2">
+                                <button class="btn btn-quick-add"><i class="ri-add-line me-2"></i> Quick Add</button>
+                            </div>
+                        </div>
+                        <div class="card-body px-0">
+                            <a class="text-decoration-none link-cover" href="{{webRoot}}/product.html">{{title}}</a>
+                            <small class="text-muted d-block">{{colors.length}} colours, {{sizes.length}} sizes</small>
+                            <p class="mt-2 mb-0 small">{{description}}</p>
+                        </div>
+                        <div class="card-footer d-flex align-items-center justify-content-between px-0 pb-0">
+                            <div class="w-100">
+                                <span class="lead fw-bolder">${{price}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            <!-- / Products-->
+
+            <!-- Pagination-->
+            {{> pagination/pagination type="products" amount="6 of 23" }}
+            <!-- / Pagination-->
+        </div>
+
+        <!-- /Page Content -->
+    </section>
+    <!-- / Main Section-->
+
+    <!-- Footer -->
+    {{> (config config.partials.footer)
+    configClassList=config.classes.footer
+    classList=""
+    }}
+    <!-- / Footer-->
+
+    <!-- Offcanvas Imports-->
+    {{> offcanvas/offcanvas }}
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Classic Crew Neck Tee",
+      "description": "A timeless staple for every man's wardrobe. This comfortable crew neck T-shirt is perfect for casual everyday wear.",
+      "price": 24.99,
+      "colors": ["Black", "White", "Navy", "Gray"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "images": [
+        "{{webRoot}}/assets/images/products/classic-crew-1.jpg",
+        "{{webRoot}}/assets/images/products/classic-crew-2.jpg",
+        "{{webRoot}}/assets/images/products/classic-crew-3.jpg",
+        "{{webRoot}}/assets/images/products/classic-crew-4.jpg"
+      ],
+      "category": "Men's T-Shirts"
+    },
+    {
+      "id": 2,
+      "name": "Vintage Graphic T-Shirt",
+      "description": "Express your style with our vintage-inspired graphic tee. Features a unique, distressed print for an authentic look.",
+      "price": 29.99,
+      "colors": ["Charcoal", "Olive", "Burgundy"],
+      "sizes": ["S", "M", "L", "XL"],
+      "images": [
+        "{{webRoot}}/assets/images/products/vintage-graphic-1.jpg",
+        "{{webRoot}}/assets/images/products/vintage-graphic-2.jpg",
+        "{{webRoot}}/assets/images/products/vintage-graphic-3.jpg",
+        "{{webRoot}}/assets/images/products/vintage-graphic-4.jpg"
+      ],
+      "category": "Men's T-Shirts"
+    },
+    {
+      "id": 3,
+      "name": "Fitted Scoop Neck Tee",
+      "description": "A flattering, feminine fit with a stylish scoop neckline. This versatile T-shirt is a must-have for any casual outfit.",
+      "price": 22.99,
+      "colors": ["White", "Black", "Pink", "Lavender"],
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "images": [
+        "{{webRoot}}/assets/images/products/scoop-neck-1.jpg",
+        "{{webRoot}}/assets/images/products/scoop-neck-2.jpg",
+        "{{webRoot}}/assets/images/products/scoop-neck-3.jpg",
+        "{{webRoot}}/assets/images/products/scoop-neck-4.jpg"
+      ],
+      "category": "Women's T-Shirts"
+    }
+  ]
+}

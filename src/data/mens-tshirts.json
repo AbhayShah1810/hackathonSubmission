@@ -1,0 +1,54 @@
+{
+  "category-products": {
+    "entries": [
+      {
+        "title": "Classic Crew Neck Tee",
+        "description": "A timeless staple for every man's wardrobe. This comfortable crew neck T-shirt is perfect for casual everyday wear.",
+        "price": 24.99,
+        "colors": ["Black", "White", "Navy", "Gray"],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "img": "{{webRoot}}/assets/images/products/IMG_1353.JPG"
+      },
+      {
+        "title": "Vintage Graphic T-Shirt",
+        "description": "Express your style with our vintage-inspired graphic tee. Features a unique, distressed print for an authentic look.",
+        "price": 29.99,
+        "colors": ["Charcoal", "Olive", "Burgundy"],
+        "sizes": ["S", "M", "L", "XL"],
+        "img": "{{webRoot}}/assets/images/products/IMG_1354.JPG"
+      },
+      {
+        "title": "Performance Athletic Tee",
+        "description": "Designed for active lifestyles, this moisture-wicking T-shirt keeps you cool and dry during workouts or casual wear.",
+        "price": 34.99,
+        "colors": ["Blue", "Red", "Black"],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "img": "{{webRoot}}/assets/images/products/IMG_1355.JPG"
+      },
+      {
+        "title": "Henley Long Sleeve Shirt",
+        "description": "A versatile long-sleeve option with a classic Henley neckline. Perfect for layering or wearing on its own.",
+        "price": 39.99,
+        "colors": ["Navy", "Gray", "Green"],
+        "sizes": ["S", "M", "L", "XL"],
+        "img": "{{webRoot}}/assets/images/products/IMG_1359.JPG"
+      },
+      {
+        "title": "Slim Fit V-Neck Tee",
+        "description": "A modern, slim-fit V-neck T-shirt that flatters your physique. Ideal for a night out or casual daywear.",
+        "price": 27.99,
+        "colors": ["White", "Black", "Maroon"],
+        "sizes": ["S", "M", "L", "XL"],
+        "img": "{{webRoot}}/assets/images/products/IMG_1358.JPG"
+      },
+      {
+        "title": "Eco-Friendly Organic Cotton Tee",
+        "description": "Made from 100% organic cotton, this eco-conscious T-shirt combines style with sustainability.",
+        "price": 32.99,
+        "colors": ["Natural", "Sage", "Sky Blue"],
+        "sizes": ["S", "M", "L", "XL", "XXL"],
+        "img": "{{webRoot}}/assets/images/products/IMG_1359.JPG"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+    "category-products": {
+      "entries": [
+        {
+          "title": "Fitted Scoop Neck Tee",
+          "description": "A flattering, feminine fit with a stylish scoop neckline. This versatile T-shirt is a must-have for any casual outfit.",
+          "price": 22.99,
+          "colors": ["White", "Black", "Pink", "Lavender"],
+          "sizes": ["XS", "S", "M", "L", "XL"],
+           "img": "{{webRoot}}/assets/images/products/girl.jpg"
+        },
+        {
+          "title": "Relaxed Boyfriend Tee",
+          "description": "Embrace comfort with our relaxed-fit boyfriend tee. Perfect for a laid-back, effortlessly cool look.",
+          "price": 26.99,
+          "colors": ["Gray", "White", "Blush"],
+          "sizes": ["XS", "S", "M", "L"],
+           "img": "{{webRoot}}/assets/images/products/girl-2.JPG"
+        },
+        {
+          "title": "Cropped Graphic T-Shirt",
+          "description": "Make a statement with our trendy cropped graphic tee. Features eye-catching designs for a bold, youthful style.",
+          "price": 28.99,
+          "colors": ["Black", "White", "Yellow"],
+          "sizes": ["XS", "S", "M", "L"],
+         "img": "{{webRoot}}/assets/images/products/girl-3.JPG"
+        },
+        {
+          "title": "Soft Jersey V-Neck Tee",
+          "description": "Experience ultimate comfort with our soft jersey V-neck. Drapes beautifully for a flattering silhouette.",
+          "price": 24.99,
+          "colors": ["Navy", "Coral", "Mint", "Heather Gray"],
+          "sizes": ["XS", "S", "M", "L", "XL"],
+           "img": "{{webRoot}}/assets/images/products/girl-4.JPG"
+        },
+        {
+          "title": "Sleeveless Turtleneck Top",
+          "description": "A chic, sleeveless turtleneck perfect for layering or wearing alone. Elevates any outfit with its sophisticated design.",
+          "price": 29.99,
+          "colors": ["Black", "White", "Burgundy"],
+          "sizes": ["XS", "S", "M", "L"],
+          "img": "{{webRoot}}/assets/images/products/girl-5.JPG"
+
+        },
+        {
+          "title": "Organic Cotton Pocket Tee",
+          "description": "Combine style and sustainability with our organic cotton pocket tee. Features a small chest pocket for added detail.",
+          "price": 27.99,
+          "colors": ["Off-White", "Sage Green", "Dusty Blue"],
+          "sizes": ["XS", "S", "M", "L", "XL"],
+          "img": "{{webRoot}}/assets/images/products/girl-6.JPG"
+        }
+      ]
+    }
+  }
